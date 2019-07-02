@@ -29,6 +29,7 @@ if v:version >= 801
     Plug 'junegunn/goyo.vim'
     Plug 'junegunn/limelight.vim'
     Plug 'kien/rainbow_parentheses.vim'
+    source ~/.vim/config/rainbow.vim
     Plug 'tpope/vim-surround'
     Plug 'easymotion/vim-easymotion'
     Plug 'terryma/vim-expand-region'
@@ -118,7 +119,6 @@ source ~/.vim/config/goyo.vim
 source ~/.vim/config/ycm.vim
 source ~/.vim/config/easymotion.vim
 source ~/.vim/config/cpp-hightlight.vim
-source ~/.vim/config/rainbow.vim
 " source ~/.vim/config/snip.vim
 " source ~/.vim/config/markdown.vim
 " source ~/.vim/config/vimwiki.vim
